@@ -164,9 +164,10 @@ var user = {
   Make that change without modifying the original object code above.
 */
 
-//Code Here
+user.name = "Bryan G. Smith"
+user.email = "bryan.smith@devmounta.in"
 
-
+// similar to the favorite things problem where you changed fav food and fav book. Changing value of the keys in the string.
 //////////////////////////// PROBLEM 11 ////////////////////////////
 /*
   Using the user object above, delete the users age off of the object.
