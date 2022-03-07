@@ -49,7 +49,7 @@ console.log(dog.color)
 
 let favoriteThings = {
   band: "Pearl Jam",
-  food: "tacos",
+  food: "Tacos",
   person: "Grams",
   book: "Dr Seuss",
   movie: "Back to the Future Trilogy",
@@ -71,7 +71,8 @@ favoriteThings.show = "This is Us";
 */
 
 
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
