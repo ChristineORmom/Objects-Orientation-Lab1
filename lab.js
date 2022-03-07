@@ -173,8 +173,9 @@ user.email = "bryan.smith@devmounta.in"
   Using the user object above, delete the users age off of the object.
 */
 
-//Code Here
-
+delete user.age
+console.log(user)
+// in this case we want to remove a value of a key in the string. Show user info again without age.
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
 /*
@@ -183,7 +184,7 @@ user.email = "bryan.smith@devmounta.in"
   Print the name of your cat instance using dot notation.
 */
 
-//Code here
+
 
 
 
