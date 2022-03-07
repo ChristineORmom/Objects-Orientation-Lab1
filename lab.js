@@ -215,7 +215,7 @@ class Wizard {
     console.log(`${this.name} has cast ${this.favoriteSpell}`)
   }
 }
-const mom = new Wizard('Mom', 34, 'Eat dinner without complaints, Ember and Millie')
+const mom = new Wizard('Mom', 43, 'Eat dinner without complaints, Ember and Millie')
 
 mom.castSpell()
 // I wish I had this spell
@@ -242,7 +242,23 @@ mom.castSpell()
     to be newPrice.
 */
 
-//Code Here
+class Phone {
+  constructor(brand, model,storage, color, price){
+    this.brand = brand
+    this.model = model
+    this.storage = storage
+    this.color = color
+    this.price = price
+    this.sold = false
+  }
+  sell() {
+    this.sold = true
+    console.log(`${this.brand} ${this.model} has been sold.`)
+  }
+  changePrice(newPrice) {
+    this.price = newPrice
+  }
+}
 
   
 /*
@@ -255,14 +271,14 @@ mom.castSpell()
     - price: number
 */
 
-//Code Here
+
 
 /* 
   Call the changePrice function on one of your phones, 
   don't forget to pass in a new price 
 
   Then console.log that object to see the price change
-*/ 
+*/
 
 //Code Here 
 
