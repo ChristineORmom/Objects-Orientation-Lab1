@@ -205,8 +205,20 @@ console.log(leo.name)
   Call the castSpell function on the instance of your wizard.
 */
 
-//Code here
+class Wizard {
+  constructor(name, age, favoriteSpell){
+    this.name
+    this.age
+    this.favoriteSpell = favoriteSpell
+  } 
+  castSpell() {
+    console.log(`${this.name} has cast ${this.favoriteSpell}`)
+  }
+}
+const mom = new Wizard('Mom', 34, 'Eat dinner without complaints, Ember and Millie')
 
+mom.castSpell()
+// I wish I had this spell
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
     Write a class called Phone. We'll use it as if we were creating
