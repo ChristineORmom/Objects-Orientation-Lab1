@@ -74,6 +74,7 @@ favoriteThings.show = "This is Us";
 favoriteThings.food = "Chicken Nuggets";
 favoriteThings.book = "Harry Potter";
 
+
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
 // Do not edit the code below.
@@ -89,7 +90,7 @@ var carDetails = {
   Use object destructuring to save the property values from the object carDetails into new variables. 
 */
 
-//Code Here
+const {color, make, model, year} = car
 
 
 
