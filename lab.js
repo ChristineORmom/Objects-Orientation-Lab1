@@ -122,7 +122,10 @@ function greeting( obj ) {
   Sum up the values and return the total number.
 */
 
-//Code Here
+function totalPopulation(obj) {
+  const {utah, california, texas, arizona} = obj
+  return 'utah + california + texas + arizona'
+}
 
 
 
