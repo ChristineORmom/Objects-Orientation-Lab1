@@ -103,14 +103,14 @@ const {color, make, model, year} = car
 */
 
 function greeting( obj ) {
-  //Code Here
+  const {firstName, lastName, title} = obj
   
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
 }
 
-
+//Traditional function iteration and destructuring. Return shows a greeting and object properties that can be added in later with an object Syntax stated above function.
 
 //////////////////////////// PROBLEM 8 ////////////////////////////
 
