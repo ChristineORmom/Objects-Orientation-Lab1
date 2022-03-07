@@ -184,10 +184,19 @@ console.log(user)
   Print the name of your cat instance using dot notation.
 */
 
+class Cat {
+  constructor(name, age, color){
+    this.name
+    this.age
+    this.color
+  }
+}
 
+const leo = new cat('Leo', 2, 'orange')
 
+console.log(leo.name)
 
-
+// when making a class "C" as in Cat is a capital letter in classes except in java. 
 //////////////////////////// PROBLEM 13 ////////////////////////////
 /*
   Create a class called 'Wizard'. Make sure to call your constructor, and require these 3 parameters: name, age, favoriteSpell.
