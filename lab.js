@@ -347,7 +347,7 @@ const shippingInfo = {
 }
 //do not edit the objects above
 
-
+const helensInfo = {...contactInfo,...shippingInfo}
 
 
 //Print helensInfo to see what it looks like, there should be no repeating properties.
