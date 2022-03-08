@@ -427,7 +427,24 @@ myFirstMotorcycle.move(50)
   This function should set isSeaworthy to be true
 */
 
-
+class Boat extends Vehicle {
+  constructor(capacity, color, mileage, name, type, isSeaworthy) {
+    super(capacity, color, mileage)
+    this.name = name
+    this.type = type
+    this.isSeaworthy = isSeaworthy
+  }
+  checkSeaworthiness() {
+    if(this.isSeaworthy) {
+      console.log(`The ${this.type} ${this.name}is seaworthy!`)
+    }else {
+      console.log(`You need to get you ${this.type}in shape!`)
+    }
+  }
+  performMaintenance() {
+  this.isSeaworthy = true
+  }
+}
 
 
 /*
