@@ -373,7 +373,7 @@ class Vehicle {
   }
   move(miles) {
     this.mileage += miles
-    console.lof(this.mileage)
+    console.log(this.mileage)
   }
 }
 
@@ -384,7 +384,7 @@ class Vehicle {
 
 const myFirstVehicle = new Vehicle(4, 'sliver', 75000)
 
-
+// spelled console.log wrong corrected
 /* 
   Now we'll create a class that's based off of the vehicle class. 
 
@@ -393,18 +393,24 @@ const myFirstVehicle = new Vehicle(4, 'sliver', 75000)
   new ones: make and isCool. (Hint: don't forget to call the super function)
 */
 
-//Code Here
+class Motorcycle extends Vehicle {
+  constructor(capacity, color, mileage, make, isCool) {
+    super(capacity, color, mileage)
+    this.make = make
+    this.isCool = isCool 
+  }
+}
 
 /*
   Create a Motorcycle using your new class and save it to a variable called myFirstMotorcycle
 */
 
-//Code Here 
+const myFirstMotorcycle = new Motorcycle(1, 'blue', 3000, 'Ducati', true)
 
 /*
   Call the move function on myFirstMotorcycle (don't forget the parameter)
 */
-
+myFirstMotorcycle.move(50)
 /*
   Let's make another class based off of Vehicle. 
 
@@ -421,7 +427,7 @@ const myFirstVehicle = new Vehicle(4, 'sliver', 75000)
   This function should set isSeaworthy to be true
 */
 
-//Code Here
+
 
 
 /*
