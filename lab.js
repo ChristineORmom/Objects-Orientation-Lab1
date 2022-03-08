@@ -272,6 +272,9 @@ class Phone {
 */
 
 
+let phoneOne = new phone('Apple', 'iPhone12', 123, 'gray', 1500)
+let phoneTwo = new phone('Apple', 'iPhone12', 124, 'blue',1500)
+let phoneThree = new phone('Apple', 'iPhone12', 125, 'pink',1500)
 
 /* 
   Call the changePrice function on one of your phones, 
@@ -280,7 +283,8 @@ class Phone {
   Then console.log that object to see the price change
 */
 
-//Code Here 
+phoneOne.changePrice(1300)
+console.log(phoneOne)
 
 
 /*
@@ -289,7 +293,10 @@ class Phone {
   Print the value of that phone's sell property to make sure it's been changed to true
 */
 
-//Code Here 
+phoneTwo.sell()
+
+console.log(phoneTwo.sold)
+
 
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
