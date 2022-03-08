@@ -315,14 +315,18 @@ const colors = {
 }
 //do not edit this object
 
-//Code Here 
+let obj = { background: 'red', highlight: 'blue', text: 'yellow'};
+
+const colorsCopy = {...colors}
+
+// not sure if this is how to use the spread operator to create a copy of the colors object above.
 
 
 
 /*
  Now use the spread operator to combine the following 2 objects into one. 
  Call the new variable helensInfo. 
- When they combine, none of the properties should be repeated.
+ When they combine, none of the properties should be repeated.""
 */
 
 //do not edit the objects below
@@ -343,7 +347,7 @@ const shippingInfo = {
 }
 //do not edit the objects above
 
-//Code Here
+
 
 
 //Print helensInfo to see what it looks like, there should be no repeating properties.
